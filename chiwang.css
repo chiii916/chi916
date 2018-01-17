@@ -1,0 +1,93 @@
+/**版面設計**/
+
+body{
+	font-family:"arial","微軟正黑體 Light", sans-serif;
+}
+
+
+header{
+	margin-top: 20px;
+	margin-right: 25px;
+	z-index: 1000;
+}
+
+/* ### HEADER LOGO ###*/
+
+#banner {
+    float: left;
+}
+
+
+#banner img {
+    vertical-align: bottom;
+    width: 100px;
+    height: 50px;
+}
+
+/* ### HEADER 按鈕 ###*/
+
+button {
+	float: right;
+	font-size: 16pt;
+	font-family:'Montserrat',sans-serif;
+	padding-top: 30px;
+	border-bottom: solid 3px transparent;
+}
+
+button img{
+	height: 25px;
+	width: 25px;
+	border: none;
+}
+
+#submenu li{
+	display: inline;
+    list-style-type: none;
+    
+}
+
+#submenu img{
+	height: 20px;
+	width: 20px;
+
+}
+
+/**main圖片**/
+
+#headerpost img{
+	width: 960px;
+	height: 800px;
+	margin-bottom: 50px;
+
+}
+#post {
+   margin-left:400px;
+   margin-right: 400px;
+}
+
+#post img{
+	height: 400px;
+	width: auto;
+	margin-bottom: 20px;
+}
+
+
+/**footer**/
+
+footer{
+	background-color: #DDDDDD;
+}
+
+footer li{
+	float: right;
+	font-size: 15px;
+	display: inline;
+
+}
+
+small{
+	margin-left: 20px;
+}
+
+
+
