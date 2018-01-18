@@ -6,12 +6,24 @@ body{
 
 
 header{
-	margin-top: 20px;
-	margin-right: 25px;
+	margin: 10px;
+	height: 126px;
+    position: fixed;
+    width: 100%;
 	z-index: 1000;
 }
 
+#header-space{
+  height: 126px;
+  width: 100%;
+}
+
 /* ### HEADER LOGO ###*/
+
+#gotop{
+	margin-left:1px;
+	margin-right: 1px;
+}
 
 #banner {
     float: left;
@@ -27,7 +39,7 @@ header{
 /* ### HEADER 按鈕 ###*/
 
 button {
-	float: right;
+	margin-left: 1200px;
 	font-size: 16pt;
 	font-family:'Montserrat',sans-serif;
 	padding-top: 30px;
@@ -55,18 +67,18 @@ button img{
 /**main圖片**/
 
 #headerpost img{
-	width: 960px;
-	height: 800px;
-	margin-bottom: 50px;
+	max-width: 100%;
+  display: block;
 
 }
+
 #post {
-   margin-left:400px;
-   margin-right: 400px;
+   margin-left:500px;
+   margin-right: 500px;
 }
 
 #post img{
-	height: 400px;
+	max-width: 100%;
 	width: auto;
 	margin-bottom: 20px;
 }
@@ -83,6 +95,10 @@ footer li{
 	font-size: 15px;
 	display: inline;
 
+}
+
+#submenu{
+	display: inline;
 }
 
 small{
